@@ -1,0 +1,27 @@
+/* book now page */
+.booking-page{background-color:#f0eddf; padding-top:50px; padding-bottom:50px;}
+.booking-page-form-left, .form-section{background-color:#fff;  padding-top:40px; padding-bottom:50px; border-radius:3px;}
+h3.color-gray  {color: #3a3c41; font-size: 40px; line-height: 1.25;}
+.type-light {font-weight: 300; font-size:18px;}
+h4.color-gray{font-size:22px;}
+.color-gray-light {color: #ababab;}
+.e-mail, .phone-number, .city, .state, .zipcode, .bedroom, .bathroom, .date, .time, .card-number, .card-date, .cvc{margin-top:20px; margin-bottom:20px;}
+.f-name input, .l-name input, .e-mail input, .phone-number input , .address input, .apt input, .city input, .zipcode input, .date input, .time input, .promo-code input, .card-number input, .card-date input, .cvc input{border: 1px solid #c6c6c7; padding: 0 15px; font-weight: 300; color: #ababab; height: 45px; max-width: 340px; width:100%;}
+.apply-button input, .book-now-btn input{border:none; background-color: #ED832F; display: inline-block; color: #fff;
+text-transform: uppercase; padding: 10px 0px; font-size: 18px; width: 100%;}
+.state select, .bedroom select, .bathroom select{font-size: 18px; line-height: 1.38889; color: #3a3c41; text-transform: none; padding: 0 35px 0 15px; font-weight: 300; position: relative; height: 43px; line-height: 43px; white-space: nowrap; display: inline-block; vertical-align: middle;  overflow: visible;  word-wrap: break-word;  overflow-wrap: break-word ;overflow: hidden;}
+.card-img2 img {float: left; margin-right: 20px;}
+.booking-page-form-right{float:left; background-color:#fff;  padding-top:40px; padding-bottom:50px; border-radius:3px;}
+.right-post{padding:0px 27px;} 
+.right-post h3{font-weight:bold;}
+.right-post p{font-size:17px; color:#85878c; margin-bottom:20px;}
+.right-button{text-transform:uppercase; padding:10px 67px; text-transform:uppercase; border-radius:3px; background:none; border:2px solid #000; color:#000; margin-top:10px;}
+.demo{background-color:#000;}
+/* media screen */
+@media screen and (max-width:767px){.f-name input, .l-name input, .e-mail input, .phone-number input , .address input, .apt input, .city input, .zipcode input, .date input, .time input, .promo-code input, .card-number input, .card-date input, .cvc input{max-width: 100%;}
+.l-name, .apt, .apply-button{margin-top:20px;}
+.phone-number{margin-top:0px;}
+.state select, .bedroom select, .bathroom select{width:100%;}
+}
+
+.post-image{width:100%; height:250px!important;}
