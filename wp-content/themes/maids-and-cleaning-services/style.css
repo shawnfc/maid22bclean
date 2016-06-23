@@ -153,9 +153,12 @@ h1, h2, h3, h4, h5, p, span{font-weight: 200!important;}
 .footer-col2 a{color: #fff;}
 .footer-col2 a:hover{color:#ED832F;transition:0.5s all;}
 .footer-col2 li{margin-bottom: 10px;}
-.contact-info a{color:#fff;}
-.contact-info .fa-mobile{color: #ED832F;margin-right: 10px;font-size: 25px;}
-.contact-info .fa-envelope{color:#ED832F;margin-right: 10px;font-size: 15px;}
+.contact-info a, .contact-info{color:#fff;}
+.contact-info .fa {color: #ED832F;margin-right: 10px;}
+.contact-info .fa-mobile{font-size: 25px;}
+.contact-info .fa-envelope{font-size: 15px;}
+.contact-info .fa-clock-o{font-size: 18px;}
+.contact-info .fa-map-marker{font-size: 22px;}
 .contact-info div{margin:15px 0px;}
 .contact-info a:hover{text-decoration:underline;transition:0.5s all;color:#ED832F;}
 .copyright-section{background-color: #23866B;padding: 30px 0px 20px;color: #fff;font-size: 14px;}

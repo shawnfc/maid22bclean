@@ -33,8 +33,6 @@
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 footer-col2">
 				<?php wp_nav_menu(array('menu'=>'Footer Menus')); ?>
-				<br>
-				<div><a href="#">1500 Walton Reserve Blvd. Austell, GA 30168</a></div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 footer-col3">
 				<ul class="footer-social-icons">
@@ -44,7 +42,8 @@
 				<div class="contact-info">
 					<div><i class="fa fa-mobile"></i><a href="tel:800-741-3924">800-741-3924</a></div>
 					<div><i class="fa fa-envelope"></i><a href="mailto:support@maid2bclean.com">support@maid2bclean.com</a></div>
-					<div><i class="fa fa-calendar"></i><a href="#">Open daily 8am-5pm</a></div>
+					<div><i class="fa fa-clock-o"></i>Open daily 8am-5pm</div>
+					<div><i class="fa fa-map-marker"></i>1500 Walton Reserve Blvd. Austell, GA 30168</div>
 				</div>
 				
 			</div>
